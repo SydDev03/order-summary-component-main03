@@ -1,0 +1,139 @@
+ @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat ;
+  background-size: cover ;
+  width: 100%;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color:hsl(225, 100%, 94%);
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+.order-summary{
+  background-color: #fff;
+  border-radius:20px ;
+  border:none ;
+  overflow:hidden;
+  margin: 50px auto ;
+  width:300px;
+  height:35rem;
+  text-align: center ;
+  
+  
+}
+
+img{
+  width:100%;
+}
+
+.order-sum{
+  font-size:16px;
+  font-weight:900;
+  color :hsl(223, 47%, 23%);
+  margin-top: 20px;
+} 
+
+.title-descrip{
+  font-size :16px;
+  color:hsl(224, 23%, 55%);
+  line-height: 25px;
+  margin-top: 15px;
+  
+}
+.box-price{
+  background-color:hsl(225, 100%, 98%);
+  margin:20px;
+  border: none;
+  border-radius: 10px ;
+  height: 70px;
+  display:flex ;
+  flex-direction:none;
+} 
+
+.text-description{
+   padding: 18px;
+   margin-right:12px;
+   line-height:22px;
+}
+
+.text-description .money{
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+a{
+  margin-top:25px;
+  font-size:16px;
+  font-weight: 500;
+  color:hsl(245, 75%, 52%);
+  
+}
+.icon-mus{
+  width: 45px;
+  height: 45px;
+  margin-top: 12px;
+ margin-left: 10px;
+}
+
+
+
+button{
+  margin-left: 25px;
+  display: grid;
+  align-items: center ;
+  font-size: 0.9rem; 
+  font-weight: 900;
+  border-radius: 12px;
+  border: none;
+  width: 250px;
+  top:50%;
+  left: 50;
+  transform:transition(-50%,-50%);
+}
+  
+.proceed-btn{
+  background-color: hsl(245, 75%, 52%);
+  padding: 1rem 0;
+  color:#fff ;
+  font-weight: 700;
+  margin-top: 25px;
+  box-shadow: 0 20px 30px -8px rgb(197,189,245) ;
+}
+
+.proceed-btn:hover{
+  opacity :0.8;
+}
+
+.cancel-btn{
+  background: white;
+  margin-top:15px;
+  color:hsl(224, 23%, 55%);
+  border-radius: 12px;
+  text-align: center;
+  padding: 1rem 0;
+  font-family: 700;
+
+  
+} 
+
+.cancel-btn:hover{
+  opacity:0.8 ;
+  color:hsl(223, 47%, 23%);
+}
+
+.attribution{
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: none;
+}
